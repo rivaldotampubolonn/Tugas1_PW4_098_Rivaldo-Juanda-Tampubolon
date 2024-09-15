@@ -1,0 +1,186 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal Biodata of Rivaldo Juanda Tampubolon">
+    <meta name="keywords" content="Rivaldo, Biodata, Personal Information, Profile">
+    <title>Rivaldo Juanda Tampubolon - Biodata</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-image: url('../img/Land\ Rover\ Defender\ 90.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            font-family: Arial, sans-serif;
+            color: #f4f4f4;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            height: 100vh;
+            position: relative;
+        }
+
+        body::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: 1;
+        }
+
+        header {
+            background-color: rgba(44, 62, 80, 0.8);
+            padding: 15px;
+            width: 100%;
+            position: fixed;
+            top: 0;
+            z-index: 10;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        header nav ul {
+            list-style-type: none;
+        }
+
+        header nav ul li {
+            display: inline;
+            margin-right: 15px;
+        }
+
+        header nav ul li a {
+            color: #ecf0f1;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 1.2em;
+        }
+
+        header nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 120px auto 30px; 
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.6); 
+            border-radius: 10px;
+            z-index: 2;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        h1, h2 {
+            color: #ffffff;
+            text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7);
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        p {
+            line-height: 1.6;
+            margin: 10px 0;
+            color: #f4f4f4;
+        }
+
+        img {
+            display: block;
+            margin: 0 auto;
+            border-radius: 50%;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+        }
+
+        footer {
+            background-color: rgba(44, 62, 80, 0.8);
+            color: #ecf0f1;
+            text-align: center;
+            padding: 1px 0;
+            width: 100%;
+            position: fixed;
+            bottom: 0;
+            z-index: 10;
+        }
+
+        .social-container {
+            text-align: center;
+            margin: 10px 0;
+        }
+
+        .social-links a {
+            margin: 0 10px;
+            display: inline-block;
+        }
+
+        .social-links img {
+            border-radius: 50%;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+        }
+
+        @media (max-width: 600px) {
+            header nav ul li {
+                display: block;
+                margin: 10px 0;
+            }
+
+            main {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="index2.html">About Me</a></li>
+                <li><a href="index3.html">Anime & Games</a></li>
+                <li><a href="index4.html">Wilderness & Travel Adventures</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h1>Biodata of Rivaldo Juanda Tampubolon</h1>
+            <p><strong>Full Name:</strong> Rivaldo Juanda Tampubolon</p>
+            <p><strong>Place and Date of Birth:</strong> Pematangsiantar, 22 July 2005</p>
+            <p><strong>Student ID:</strong> 231401098</p>
+            <p><strong>Class:</strong> B</p>
+            <p><strong>Hobbies:</strong> Playing music, swimming</p>
+            <p><strong>Motto:</strong> "Work hard today, to enjoy freedom and explore the world tomorrow."</p>
+        </section>
+
+        <section>
+            <h2>Profile Picture</h2>
+            <img src="../img/Rivaldo.jpg" alt="Rivaldo's Profile Picture" style="width: 200px; height: auto;">
+        </section>
+    </main>
+
+    <footer>
+        <div class="social-container">
+            <h2>Follow Me on Social Media</h2>
+            <div class="social-links">
+                <a href="https://www.instagram.com/rivaldotampubolonn/" class="instagram" target="_blank" aria-label="Instagram">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" width="50" height="50"/>
+                </a>
+                <a href="https://open.spotify.com/user/312njrrkmvlrocagmzchoxnwzrmm" class="spotify" target="_blank" aria-label="Spotify">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/Spotify_logo_without_text.svg" alt="Spotify" width="50" height="50"/>
+                </a>
+                <a href="https://id.linkedin.com/in/rivaldo-juanda-tampubolon" class="linkedin" target="_blank" aria-label="LinkedIn">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg" alt="LinkedIn" width="50" height="50"/>
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

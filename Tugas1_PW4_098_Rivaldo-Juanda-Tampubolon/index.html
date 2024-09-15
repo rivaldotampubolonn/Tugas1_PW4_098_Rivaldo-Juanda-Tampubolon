@@ -1,0 +1,129 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Rivaldo</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-image: url('img/Land\ Rover\ Defender\ 90.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            font-family: Arial, sans-serif;
+            color: #f4f4f4;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            height: 100vh;
+            position: relative;
+        }
+
+        body::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5); 
+            z-index: 1;
+        }
+
+        header {
+            background-color: rgba(44, 62, 80, 0.8);
+            padding: 15px;
+            width: 100%;
+            position: fixed;
+            top: 0;
+            z-index: 10;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        header nav ul {
+            list-style-type: none;
+        }
+
+        header nav ul li {
+            display: inline;
+            margin-right: 15px;
+        }
+
+        header nav ul li a {
+            color: #ecf0f1;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 1.2em;
+        }
+
+        header nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 120px auto 30px;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.6);
+            border-radius: 10px;
+            z-index: 2;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        h1, h2 {
+            color: #ffffff;
+            text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7);
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        p {
+            line-height: 1.6;
+            margin: 10px 0;
+            color: #f4f4f4;
+        }
+
+        @media (max-width: 600px) {
+            header nav ul li {
+                display: block;
+                margin: 10px 0;
+            }
+
+            main {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="html/index2.html">About Me</a></li>
+                <li><a href="html/index3.html">Anime & Games</a></li>
+                <li><a href="html/index4.html">Wilderness & Travel Adventures</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h1>About Me</h1>
+            <p>Hi, I am Rivaldo Juanda Tampubolon, currently a student at Universitas Sumatera Utara studying Computer Science. My passions revolve around technology, music, history, military and outdoor adventures. I enjoy exploring new places, try a local culinary, and staying up-to-date with the latest tech trends.</p>
+        </section>
+
+        <section>
+            <h2>Skills</h2>
+            <p>In addition to learning some programming languages like C and C++, I have a strong interest in gaming, cybersecurity, and military technology.</p>
+        </section>
+    </main>
+</body>
+</html>
